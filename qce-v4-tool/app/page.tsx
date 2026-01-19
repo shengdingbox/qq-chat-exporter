@@ -958,7 +958,7 @@ export default function QCEDashboard() {
               </motion.button>
             ))}
             <motion.a
-              href="https://sdjz.wiki/post/qce%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-muted-foreground hover:text-foreground transition-all duration-300 flex items-center gap-1"
@@ -974,7 +974,7 @@ export default function QCEDashboard() {
                     <div className="flex items-center gap-2">
             <ThemeToggle />
             <motion.a
-            href="https://github.com/shuakami/qq-chat-exporter"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-primary text-primary-foreground hover:bg-primary/90 transition-colors text-sm"
@@ -2873,7 +2873,7 @@ export default function QCEDashboard() {
                   <div className="flex items-center gap-4">
                     <motion.div whileHover={{ y: -1 }} whileTap={{ scale: 0.98 }}>
                       <Button 
-                        onClick={() => window.open('https://github.com/shuakami/qq-chat-exporter', '_blank')}
+                        onClick={() => window.open('#', '_blank')}
                         className="rounded-full bg-neutral-900 hover:bg-neutral-800 text-white"
                       >
                         <Star className="w-4 h-4 mr-2" />
@@ -2882,7 +2882,7 @@ export default function QCEDashboard() {
                     </motion.div>
                     <motion.div whileHover={{ y: -1 }} whileTap={{ scale: 0.98 }}>
                       <Button 
-                        onClick={() => window.open('https://napneko.github.io/', '_blank')}
+                        onClick={() => window.open('#', '_blank')}
                         variant="outline"
                         className="rounded-full"
                       >
@@ -2903,12 +2903,6 @@ export default function QCEDashboard() {
                   <div className="space-y-3 text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed">
                     <p>
                       本工具仅供学习和个人使用，请勿用于商业用途。请遵守相关法律法规和平台服务条款。
-                    </p>
-                    <p>
-                      <strong>反倒卖声明：</strong>本项目完全开源免费，任何个人或组织不得将此工具进行商业销售或倒卖。
-                    </p>
-                    <p>
-                      如果这个工具对你有帮助，请在 GitHub 上给我们一个 Star ⭐
                     </p>
                   </div>
                 </motion.div>
